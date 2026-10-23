@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="Portfolio of Tejas Muley, a Data Engineer building reliable AWS, Snowflake, dbt, Airflow and PySpark data platforms.">
+  <title>Tejas Muley | Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Tejas Muley home">
+      <span class="brand-mark">TM</span>
+      <span>Tejas Muley</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a class="nav-cta" href="#contact">Let’s connect</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="about">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Open to data engineering opportunities</div>
+        <p class="kicker">Data Engineer · AWS · Snowflake · dbt</p>
+        <h1>I turn fragmented operational data into <em>trusted business systems.</em></h1>
+        <p class="hero-summary">Data Engineer with 3+ years of experience building a data platform from the ground up at udChalo—covering CDC ingestion, medallion data modeling, orchestration, governance, BI, and production reliability.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore projects <span aria-hidden="true">↘</span></a>
+          <a class="button secondary" href="mailto:tejas.muley.work@gmail.com">tejas.muley.work@gmail.com</a>
+        </div>
+        <div class="hero-stack" aria-label="Primary technologies">
+          <span>Python</span><span>SQL</span><span>Snowflake</span><span>Airflow</span><span>dbt</span><span>AWS</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="portrait-wrap">
+          <div class="portrait-grid" aria-hidden="true"></div>
+          <img src="assets/tejas-muley.jpeg" alt="Tejas Muley, Data Engineer" width="800" height="800">
+          <div class="portrait-tag tag-one"><strong>&lt;1%</strong><span>pipeline failure rate</span></div>
+          <div class="portrait-tag tag-two"><strong>₹20L</strong><span>annual savings</span></div>
+        </div>
+      </div>
+
+      <div class="impact-strip reveal" aria-label="Career impact highlights">
+        <article><strong>70+</strong><span>reports migrated or built</span></article>
+        <article><strong>93%</strong><span>faster query execution</span></article>
+        <article><strong>20+</strong><span>BI dashboards delivered</span></article>
+        <article><strong>4</strong><span>engineers mentored</span></article>
+      </div>
+    </section>
+
+    <section class="story section-shell">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / The story</p>
+        <h2>From emailed CSVs to a governed data platform.</h2>
+      </div>
+      <div class="story-grid">
+        <article class="story-card before reveal">
+          <span class="story-label">Before</span>
+          <h3>Reporting was a file-delivery process</h3>
+          <ul>
+            <li>D−1 JavaScript Lambda transformations</li>
+            <li>Public S3 links and spreadsheet collation</li>
+            <li>No historical restatement or CDC visibility</li>
+            <li>Limited self-service analysis</li>
+          </ul>
+        </article>
+        <div class="story-arrow reveal" aria-hidden="true">→</div>
+        <article class="story-card after reveal">
+          <span class="story-label">Built</span>
+          <h3>A secure, observable analytics foundation</h3>
+          <ul>
+            <li>CDC and batch ingestion into an S3 data lake</li>
+            <li>Snowflake medallion models managed with dbt</li>
+            <li>Airflow orchestration, testing and alerting</li>
+            <li>Governed marts, BI and self-service reporting</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-index">02 / Selected work</p>
+        <h2>Systems designed around business outcomes.</h2>
+        <p>Select a project, then inspect its pipeline, architecture, or data model.</p>
+      </div>
+
+      <div class="project-explorer reveal">
+        <div class="project-list" role="tablist" aria-label="Projects" aria-orientation="vertical">
+          <button class="project-choice active" type="button" role="tab" aria-selected="true" data-project="platform">
+            <span>01</span><div><strong>Enterprise Data Platform</strong><small>AWS · Snowflake · dbt</small></div>
+          </button>
+          <button class="project-choice" type="button" role="tab" aria-selected="false" data-project="recon">
+            <span>02</span><div><strong>Automated Reconciliation</strong><small>Finance automation</small></div>
+          </button>
+          <button class="project-choice" type="button" role="tab" aria-selected="false" data-project="portal">
+            <span>03</span><div><strong>Self-Service Reporting</strong><small>Secure data access</small></div>
+          </button>
+          <button class="project-choice" type="button" role="tab" aria-selected="false" data-project="search">
+            <span>04</span><div><strong>Search Intelligence at Scale</strong><small>PySpark case study</small></div>
+          </button>
+          <button class="project-choice" type="button" role="tab" aria-selected="false" data-project="calls">
+            <span>05</span><div><strong>AI Call Intelligence</strong><small>Databricks · Gemini</small></div>
+          </button>
+        </div>
+
+        <article class="project-panel" aria-live="polite">
+          <div class="project-topline">
+            <span class="project-type" id="project-type"></span>
+            <span class="project-period" id="project-period"></span>
+          </div>
+          <h3 id="project-title"></h3>
+          <p class="project-summary" id="project-summary"></p>
+
+          <div class="project-facts">
+            <div><span>Why</span><p id="project-why"></p></div>
+            <div><span>My role</span><p id="project-role"></p></div>
+          </div>
+
+          <div class="outcome-grid" id="project-outcomes"></div>
+
+          <div class="diagram-tabs" role="tablist" aria-label="Project diagram type">
+            <button class="diagram-tab active" type="button" role="tab" aria-selected="true" data-view="pipeline">Pipeline</button>
+            <button class="diagram-tab" type="button" role="tab" aria-selected="false" data-view="architecture">Architecture</button>
+            <button class="diagram-tab" type="button" role="tab" aria-selected="false" data-view="model">ER / Data model</button>
+          </div>
+          <div class="diagram-canvas" id="diagram-canvas"></div>
+          <p class="diagram-caption" id="diagram-caption"></p>
+          <div class="tech-row" id="project-tech"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section-shell" id="experience">
+      <div class="section-heading reveal">
+        <p class="section-index">03 / Experience</p>
+        <h2>Building the data function at udChalo.</h2>
+      </div>
+      <div class="experience-layout">
+        <aside class="experience-meta reveal">
+          <div class="company-mark">uC</div>
+          <p>May 2023 — Present</p>
+          <p>Pune, Maharashtra</p>
+        </aside>
+        <article class="experience-body reveal">
+          <p class="role-label">Data Engineer · udChalo</p>
+          <h3>Owned the path from source-system change to trusted decision.</h3>
+          <div class="experience-points">
+            <p><span>01</span>Designed CDC and batch ingestion across 30+ DynamoDB tables, 10+ RDS tables, APIs, BigQuery, marketing platforms, Excel and SharePoint.</p>
+            <p><span>02</span>Built reusable dbt models, macros and tests across staging, fact and reporting layers; orchestrated historical and incremental loads with MWAA Airflow.</p>
+            <p><span>03</span>Introduced RBAC, private report delivery and domain marts so engineers, analysts, finance and marketing used the right level of data access.</p>
+            <p><span>04</span>Mentored four engineers through code reviews and shared Python, SQL, Git, data-quality and production-debugging standards.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section-shell" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-index">04 / Toolkit</p>
+        <h2>Tools are useful. Engineering judgment is the differentiator.</h2>
+      </div>
+      <div class="skill-grid reveal">
+        <article><span>Languages</span><h3>SQL · Python</h3><p>Pandas, NumPy, PySpark, Spark SQL, UDFs</p></article>
+        <article><span>Data platform</span><h3>Snowflake · Databricks</h3><p>Data modeling, ELT, SCDs, query tuning, pruning</p></article>
+        <article><span>Orchestration</span><h3>Airflow · dbt</h3><p>Incremental models, macros, tests, backfills, DAGs</p></article>
+        <article><span>AWS</span><h3>S3 · Lambda · DynamoDB</h3><p>Streams, RDS, SNS, SQS, IAM, MWAA, Cognito, CloudWatch</p></article>
+        <article><span>Data formats</span><h3>Parquet · JSON · CSV</h3><p>XML, Excel and structured extraction from PDFs</p></article>
+        <article><span>Delivery</span><h3>Git · Docker · CI/CD</h3><p>Code reviews, unit tests, incident debugging, JIRA</p></article>
+      </div>
+    </section>
+
+    <section class="recognition section-shell">
+      <div class="section-heading reveal">
+        <p class="section-index">05 / Recognition</p>
+        <h2>Impact recognized by the people closest to the work.</h2>
+      </div>
+      <div class="award-row reveal">
+        <article><span>2024</span><h3>Project of the Year</h3></article>
+        <article><span>2024</span><h3>“You’ve Made a Difference” Award</h3></article>
+        <article><span>Dec 2024</span><h3>Rockstar of the Month</h3></article>
+      </div>
+      <div class="education-row reveal">
+        <article><span>2022 — 2023</span><h3>Post Graduate Diploma, Data Science & Analytics</h3><p>Imarticus Learning</p></article>
+        <article><span>2019 — 2022</span><h3>B.Tech, Mechatronics & Automation</h3><p>MIT Art, Design and Technology University, Pune</p></article>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="contact-inner reveal">
+        <p class="section-index">06 / Contact</p>
+        <h2>Let’s build data products people can trust.</h2>
+        <p>I’m interested in data engineering roles focused on reliable platforms, cloud data warehousing, distributed processing and measurable business impact.</p>
+        <div class="contact-actions">
+          <a class="button light" href="mailto:tejas.muley.work@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+          <a class="button ghost" href="https://www.linkedin.com/in/tejasmuley07/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="button ghost" href="tel:+919689214694">+91 96892 14694</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tejas Muley · Data Engineer · Pune, India</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
